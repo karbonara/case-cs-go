@@ -1,0 +1,85 @@
+.game__main-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.game {
+    width: 980px;
+    margin: 0 auto;
+}
+.game__item {
+    width: 140px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    position: relative;
+    transition: all .6s ease-out;
+    &:hover {
+        transform: scale(1.04);
+    }
+}
+.game__item-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+}
+.game__item p {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.game__item-title {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.game__item-title-big {
+    font-size: 25px;
+}
+.game__item-buy {
+    display: block;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    background: #9130e3;
+    width: 140px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    &:hover {
+        background-color: #801dca;
+        color: #ffffff;
+    }
+}
+.game__item img {
+    border-radius: 15px;
+}
+.game__item-big {
+    width: 300px;
+}
+.game__item-big img {
+    height: 365px;
+}
+.game__item-buy-big {
+    width: 300px;
+    margin-top: -58px;
+}
+
+// Страница покупки
+.game__items-page {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 980px;
+    display: flex;
+}
+.game__item-big-page {
+    width: 400px;
+}
+.game__item-buy-big-page {
+    width: 400px;
+}
